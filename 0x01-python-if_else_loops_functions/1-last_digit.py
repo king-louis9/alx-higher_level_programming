@@ -9,7 +9,7 @@ else:
     las_dgt = number % 10
 
 if las_dgt > 5:
-    print("Last digit of {number} is {las_dgt} and is greater than 5")
+    print(f"Last digit of {number} is {las_dgt} and is greater than 5")
 elif las_dgt == 0:
     print(f"Last digit of {number} is {las_dgt} and is 0")
 else:
